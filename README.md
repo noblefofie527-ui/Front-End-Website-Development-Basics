@@ -5,7 +5,7 @@ https://noblefofie527-ui.github.io/Front-End-Website-Development-Basics/
 
 
 ### Project Structure
-The project is organized into a clean, multi-page architecture to ensure scalability and ease of navigation:
+The project is organised into a clean, multi-page architecture to ensure scalability and easy navigation:
 * **`index.html`**: The landing page featuring the project showcase.
 * **`about.html`**: A detailed professional background and skill summary.
 * **`contact.html`**: A functional user inquiry form with validated inputs.
@@ -13,7 +13,7 @@ The project is organized into a clean, multi-page architecture to ensure scalabi
 
 
 ### Semantic HTML5
-Prioritized accessibility and SEO by using semantic tags:
+Prioritised accessibility and Search Engine Optimisation by using semantic tags:
 * `<header>` and `<nav>` for site-wide navigation.
 * `<main>` and `<section>` to define content hierarchy.
 * `<strong>` and `<label>` to enhance screen-reader compatibility.
