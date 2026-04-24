@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Feedback Survey</title>
+
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <header>
+        <h1>Website Feedback Survey</h1>
+        <p>Help me improve my portfolio by sharing your thoughts!</p>
+        <a href="home.html">← Back to Portfolio</a>
+    </header>
+
+    <hr>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="Enter your full name" required>
+                </p>
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="user_email" placeholder="Enter your email" required>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>How did you find this portfolio?</b></legend>
+                <input type="radio" id="social" name="source" value="social">
+                <label for="social">Social Media</label><br>
+                
+                <input type="radio" id="search" name="source" value="search">
+                <label for="search">Search Engine</label><br>
+                
+                <input type="radio" id="friend" name="source" value="friend">
+                <label for="friend">From a Friend</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><b>What skills are you interested in?</b></legend>
+                <input type="checkbox" id="html" name="skills" value="html">
+                <label for="html">HTML Development</label><br>
+                
+                <input type="checkbox" id="data" name="skills" value="data">
+                <label for="data">Data Analysis</label><br>
+                
+                <input type="checkbox" id="writing" name="skills" value="writing">
+                <label for="writing">Content Writing</label>
+            </fieldset>
+
+            <br>
+
+            <p>
+                <label for="comments"><b>Any additional suggestions?</b></label><br>
+                <textarea id="comments" name="user_comments" rows="5" cols="40" placeholder="Type here..."></textarea>
+            </p>
+
+            <input type="submit" value="Submit Survey">
+            <input type="reset" value="Clear Form">
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Thank you for your data contribution!</p>
+    </footer>
+
+</body>
+</html>
